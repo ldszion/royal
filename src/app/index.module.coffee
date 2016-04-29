@@ -1,1 +1,10 @@
-angular.module 'royal', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'toastr']
+angular.module 'royal', [
+  'ngAnimate',
+  'ngCookies',
+  'ngTouch',
+  'ngSanitize',
+  'ngMessages',
+  'ngAria',
+  'ui.router',
+  'toastr'
+]
