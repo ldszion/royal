@@ -4,4 +4,8 @@ node_js:
 before_script:
   - npm install -g gulp
   - npm install -g bower
+  - npm install -g codeclimate-test-reporter
   - bower install
+  - gulp clean
+after_script:
+  - codeclimate-test-reporter < coverage/lcov-report/lcov.info
