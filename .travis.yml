@@ -8,4 +8,7 @@ before_script:
   - bower install
   - gulp clean
 after_script:
-  - codeclimate-test-reporter < coverage/lcov-report/lcov.info
+  - codeclimate-test-reporter < ~/build/ldszion/royal/coverage/lcov-report/lcov.info
+addons:
+  code_climate:
+    repo_token: ac3eb7efe26e7c841e3bd08cdee8abd6d399fdc24f176e691c1d922ebb32fec3
